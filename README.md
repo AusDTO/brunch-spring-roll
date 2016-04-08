@@ -1,15 +1,31 @@
 # brunch-spring-roll
-Brunch skeleton for spring-boot
 
-Install node: http://nodejs.org/
+[Brunch](http://brunch.io/) skeleton for [spring-boot](http://projects.spring.io/spring-boot/)
 
-Install Brunch: npm install -g brunch
+## Install
 
-brunch new <app name> -s https://github.com/alphillips/brunch-spring-roll
+1. Install node: http://nodejs.org/
 
-brunch new frontend -s https://github.com/alphillips/brunch-spring-roll
 
-cd into your new app folder
-npm install to install any node dev dependencies listed in package.json.
+2. Install Brunch:
 
-brunch build
+   `npm install -g brunch`
+
+
+3. Navigate to your Spring Boot resource folder and install **brunch-spring-roll**
+
+   `brunch new frontend -s https://github.com/alphillips/brunch-spring-roll`
+
+   This creates a **frontend** folder under resources.
+
+4. cd into your **frontend** folder and install dependencies
+
+   `npm install`
+
+
+## Develop
+`brunch watch`
+
+## Deploy
+
+`brucnh build --production`
