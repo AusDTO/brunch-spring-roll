@@ -9,23 +9,33 @@
 
 2. Install Brunch:
 
-   `npm install -g brunch`
+   ```
+   npm install -g brunch
+   ```
 
 
 3. Navigate to your Spring Boot resource folder and install **brunch-spring-roll**
 
-   `brunch new frontend -s https://github.com/alphillips/brunch-spring-roll`
+   ```
+   brunch new frontend -s https://github.com/alphillips/brunch-spring-roll
+   ```
 
    This creates a **frontend** folder under resources.
 
 4. cd into your **frontend** folder and install dependencies
 
-   `npm install`
+   ```
+   npm install
+   ```
 
 
 ## Develop
-`brunch watch`
+```
+brunch watch
+```
 
 ## Deploy
 
-`brucnh build --production`
+```
+brucnh build --production
+```
