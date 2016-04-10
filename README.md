@@ -30,12 +30,27 @@
 
 
 ## Develop
+
+After you build the spring-boot project `mvn spring-boot:run`
+Build brunch
+
+```
+brunch build
+```
+
+Builds all the assets into the `public` directory. Also copies all assets including templates into classes directory so you don't need to run `mvn` again.
+
 ```
 brunch watch
 ```
 
+Same as `build` and also listens for any changes to files and runs build as you develop.
+
+
 ## Deploy
 
 ```
-brucnh build --production
+brunch build --production
 ```
+
+Same as `build` and also minifies the assets.
