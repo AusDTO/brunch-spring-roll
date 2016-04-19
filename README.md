@@ -6,18 +6,16 @@
 
 1. Install node: http://nodejs.org/
 
-
-2. Install Brunch:
+2. Install Brunch globally:
 
    ```
    npm install -g brunch
    ```
 
-
-3. Navigate to your Spring Boot resource folder and install **brunch-spring-roll**
+3. Navigate to your Spring Boot resources folder and install **brunch-spring-roll**
 
    ```
-   brunch new frontend -s https://github.com/alphillips/brunch-spring-roll
+   brunch new frontend -s https://github.com/AusDTO/brunch-spring-roll
    ```
 
    This creates a **frontend** folder under resources.
